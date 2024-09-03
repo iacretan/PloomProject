@@ -6,7 +6,7 @@ class CartPage {
     readonly regularCartList = this.page.getByTestId('regular-cart-list');
     readonly cartProductLink = this.page.getByRole('link', { name: 'Ploom X Advanced Black' }).first();
     readonly cartQuantity = this.regularCartList.getByTestId('cartQuantity');
-    readonly paymentSummary = this.page.getByText('Payment SummarySubtotal£10.00Total £');
+    readonly paymentSummary = this.page.getByText('Payment SummarySubtotal£29.00Total £');
     readonly checkoutButton = this.page.getByTestId('loginCheckoutButton');
 
     constructor(readonly page: Page) {}

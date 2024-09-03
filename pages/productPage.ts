@@ -29,7 +29,7 @@ class ProductPage {
             await expect(this.miniCartProductLink).toBeVisible();
             await expect(this.miniCartList).toContainText('Ploom X Advanced Black');
             await expect(this.cartQuantity).toBeVisible();
-            await expect(this.miniCartList).toContainText('£10.00');
+            await expect(this.miniCartList).toContainText('£29.00');
             await expect(this.cartRemoveButton).toContainText('Remove Item');
             await expect(this.miniCartCheckoutButton).toBeVisible();
         });
